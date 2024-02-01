@@ -8,7 +8,7 @@
  * Return: 0 on success
 */
 
-int reset_to_98(int_ptr)
+int reset_to_98(int *int_ptr)
 {
 	*int_ptr = 98;
 	return (0);
