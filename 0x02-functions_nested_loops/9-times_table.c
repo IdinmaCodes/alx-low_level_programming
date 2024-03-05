@@ -1,5 +1,15 @@
 #include <stdio.h>
 #include "main.h"
+/**
+*  times_table - a function that prints the 9 times table, starting with 0
+*
+* Description:
+* This function generates and prints the multiplication table from 0 to 9
+* It uses nested loops to iterate through each combination fo multiplicands,
+* calculates the product, and prints the result formatted as a table.
+*
+* Return: void
+*/
 void times_table(void)
 {
 int i;
